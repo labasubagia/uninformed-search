@@ -1,6 +1,6 @@
-# Homework DSF and BSF Graph
+# Uninformed Search Graph
 
-## Question
+## Graph
 
 The graph look like this
 <br>
