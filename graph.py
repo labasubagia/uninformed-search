@@ -38,9 +38,9 @@ def dsf(graph: Graph, node: str) -> list:
     Deep First Search
     `NOTE`: order of keys in param `graph` won't affected the result
     '''
+    visited = []
 
     # mark current node as visited
-    visited = []
     visited.insert(0, node)
 
     # find next nodes of current node
