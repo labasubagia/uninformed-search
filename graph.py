@@ -16,7 +16,7 @@ def bsf(graph: Graph, node: str) -> list:
     visited.append(node)
 
     while queue:
-        # remove queue and add to result
+        # remove queue
         queue.pop(0)
 
         # find next nodes
