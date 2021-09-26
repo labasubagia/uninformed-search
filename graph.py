@@ -8,17 +8,16 @@ def bsf(graph: Graph, node: str) -> list:
     Breath First Search
     `NOTE`: order of keys in param `graph` will affected the result
     '''
-    result = []
     visited = []
     queue = []
 
     # add first node
-    visited.append(node)
     queue.append(node)
+    visited.append(node)
 
     while queue:
         # remove queue and add to result
-        result.append(queue.pop(0))
+        queue.pop(0)
 
         # find next nodes
         for neighbor in graph:
